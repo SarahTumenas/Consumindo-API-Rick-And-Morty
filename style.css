@@ -16,3 +16,64 @@ body {
   background-image: url(img/rick-and-morty-background.jpg);
   color: rgba(218, 214, 214, 0.5);
 }
+
+h1 {
+  background: linear-gradient(to right, #474646, #585656);
+  padding: 10px;
+  text-align: center;
+  font-size: 3em;
+  color: whitesmoke;
+  font-style: italic;
+  border-radius: 16px 16px;
+}
+
+button {
+  background: linear-gradient(to right, #474646, #585656);
+  text-align: center;
+  opacity: 1;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 0.7em;
+  font-style: italic;
+  border-radius: 16px 16px;
+  position: relative;
+}
+
+.container {
+  border: 1px transparent;
+  margin: 10%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.text {
+  background: linear-gradient(to right, #474646, #585656);
+  text-align: justify;
+  opacity: 1;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-radius: 16px;
+}
+
+strong {
+  color: rgba(4, 240, 83, 0.534);
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+#image {
+  border-radius: 16px;
+  position: center;
+  margin: 40px 300px;
+  border: 7px solid transparent;
+  height: 50%;
+}
+
+#video {
+  border-radius: 16px;
+  position: center;
+  margin: 60px 300px;
+  border: 7px solid transparent;
+  width: 55%;
+}
