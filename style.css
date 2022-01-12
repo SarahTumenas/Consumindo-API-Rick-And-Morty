@@ -63,7 +63,7 @@ strong {
 
 #image {
   border-radius: 16px;
-  position: center;
+  position: relative;
   margin: 40px 300px;
   border: 7px solid transparent;
   height: 50%;
@@ -71,7 +71,7 @@ strong {
 
 #video {
   border-radius: 16px;
-  position: center;
+  position: relative;
   margin: 60px 300px;
   border: 7px solid transparent;
   width: 55%;
