@@ -21,7 +21,7 @@ h1 {
   background: linear-gradient(to right, #474646, #585656);
   padding: 10px;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   color: whitesmoke;
   font-style: italic;
   border-radius: 16px 16px;
@@ -37,6 +37,14 @@ button {
   font-style: italic;
   border-radius: 16px 16px;
   position: relative;
+}
+
+footer {
+  height: 100px;
+  border: 7px solid transparent;
+  padding: 300px 100px 150px 250px;
+  position: relative;
+  background-image: url(img/logo.png);
 }
 
 .container {
@@ -59,6 +67,49 @@ strong {
   color: rgba(4, 240, 83, 0.534);
   font-weight: bold;
   font-size: 0.9em;
+}
+
+div.personagens {
+  border-radius: 16px;
+  position: relative;
+  margin: 40px 300px;
+  border: 7px solid transparent;
+  height: 50%;
+}
+
+h3 {
+  background: rgba(245, 245, 245, 0.308);
+  padding: 5px;
+}
+
+.personagens {
+  background: linear-gradient(to right, #474646, #585656);
+  display: inline-block;
+  padding: 10px;
+  margin: 60px 100px;
+}
+
+.personagens:hover {
+  background: rgb(47, 255, 109);
+  cursor: pointer;
+}
+
+.personagens h3 {
+  background: rgba(245, 245, 245, 0.308);
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.personagens > p {
+  background: rgba(245, 245, 245, 0.308);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.personagens h3 + p {
+  background: rgba(245, 245, 245, 0.308);
 }
 
 #image {
