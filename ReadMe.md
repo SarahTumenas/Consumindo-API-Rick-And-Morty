@@ -10,3 +10,4 @@ Foram abordados os seguintes temas:
 - Git/Github;
 - VS Code;
 - HTML, CSS e JavaScript
+- API: "https://rickandmortyapi.com/"
