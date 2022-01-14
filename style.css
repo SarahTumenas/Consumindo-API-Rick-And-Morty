@@ -18,10 +18,10 @@ body {
   min-height: 100vh;
   width: 100%;
 }
-div {
-  width: 270px;
-  height: 300px;
+main > section div {
   display: inline-block;
+  height: 300px;
+  width: 300px;
 }
 
 main > section img {
@@ -43,7 +43,7 @@ main > section button {
   letter-spacing: -0.6px;
   line-height: 15px;
   margin: 40px 300px;
-  padding: 9px 23px;
+  padding: 9px 80px;
   position: relative;
   text-emphasis-color: linear-gradient(to right, #474646, #585656);
   text-transform: uppercase;
